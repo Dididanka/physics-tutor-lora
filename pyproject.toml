@@ -1,0 +1,15 @@
+[project]
+name = "physics-persona-lora"
+version = "0.1.0"
+description = "Local MLX-LM LoRA fine-tuning project for a physics tutor persona"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+  "mlx-lm",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

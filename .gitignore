@@ -1,0 +1,38 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Version the original synthetic SFT corpus and its deterministic splits.
+# Other raw data remains private by default.
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+!data/raw/physics_sft_v1.jsonl
+!data/raw/physics_sft_v1.manifest.json
+!data/raw/physics_sft_v1.md
+!data/raw/physics_tutor_train.jsonl
+!data/raw/physics_tutor_valid.jsonl
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/train.jsonl
+!data/processed/valid.jsonl
+!data/processed/test.jsonl
+adapters/*
+!adapters/.gitkeep
+evaluations/*
+!evaluations/.gitkeep
+
+# Manually downloaded model files are local-only; clone and download them separately.
+configs/*
+!configs/qwen3-4b-lora.env
+
+# MLX / Hugging Face caches and large exports
+models/
+*.safetensors
+*.gguf
+*.npz
+
+# macOS
+.DS_Store

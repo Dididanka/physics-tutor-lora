@@ -1,0 +1,16 @@
+{
+  "name": "physics_sft_v1",
+  "record_count": 3000,
+  "seed": 20260719,
+  "category_targets": {
+    "mechanics": 660,
+    "electromagnetism": 600,
+    "thermal": 450,
+    "waves_optics": 390,
+    "modern": 390,
+    "conceptual": 390,
+    "safety_persona": 120
+  },
+  "source": "original formula-checked synthetic SFT curriculum",
+  "review_required": true
+}
